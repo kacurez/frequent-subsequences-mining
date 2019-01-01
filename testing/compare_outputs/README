@@ -1,0 +1,10 @@
+COMPARE.PY
+a python skript which verfies the correctness of ouputs of the programs.
+The programs executables must be in the same directory as the script with names: prefixspan and spade.
+
+The script takes input arguments as file containing the name of the teste data set and a list of support thresholds separated by space, for example see input or input2 files. The  files with .data extension represent data sets.
+
+If the ouputs of the programs are different then the script prints which seqeunces are missing in a specified output of the program program. Additionaly it prints the number of ouput sequences  for each program run. 
+
+
+HAVE A FUN;)

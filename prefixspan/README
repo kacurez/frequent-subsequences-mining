@@ -1,0 +1,20 @@
+************************PREFIXSPAN INSTALL*******************************
+make all
+make clean
+//executable is generated into the ./build directory (see makefile)
+
+//*********************PREFIXSPAN HELP**********************************
+usage: ./prefixspan <filename> <support_threshold> [--show-database] [--show-patterns]
+filename - name of the data set(.data)
+support_threshold - support thershold as absolute number
+--show-database - prints an original database to stderr without infrequent 1-sequences 
+--show-patterns - prints comple set of frequent sequences to stderr
+
+to stdout the program prints a time in seconds in which the algorithm run. If --show-database option is on then it also comprehends the time of the print
+
+
+./build/testdata directory contains the test datasets
+table1db.data is a sample database used by author in the prefixspan paper which proposes the algorithm.
+
+
+HAVE A FUN:)

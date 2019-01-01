@@ -1,0 +1,20 @@
+Command Line Options:
+  -ncust number_of_customers_in_000s (default: 100)
+  -slen avg_trans_per_customer (default: 10)
+  -tlen avg_items_per_transaction (default: 2.5)
+  -nitems number_of_different_items_in_000s (default: 10)
+  -rept repetition-level (default: 0)
+
+  -seq.npats number_of_seq_patterns (default: 5000)
+  -seq.patlen avg_length_of_maximal_pattern (default: 4)
+  -seq.corr correlation_between_patterns (default: 0.25)
+  -seq.conf avg_confidence_in_a_rule (default: 0.75)
+
+  -lit.npats number_of_patterns (default: 25000)
+  -lit.patlen avg_length_of_maximal_pattern (default: 1.25)
+  -lit.corr correlation_between_patterns (default: 0.25)
+  -lit.conf avg_confidence_in_a_rule (default: 0.75)
+
+  -fname <filename> (write to filename.data and filename.pat)
+  -ascii (Write data in ASCII format; default: False)
+  -version (to print out version info)

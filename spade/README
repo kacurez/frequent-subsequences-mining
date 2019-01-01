@@ -1,0 +1,22 @@
+************************SPADE INSTALL*******************************
+make all
+make clean
+//executable is generated into the ./build directory (see makefile)
+
+
+//*********************SPADE HELP**********************************
+"usage: spade v0.3  
+      
+       [--filename|-f <string>] - name of the data set(.data)
+       [--support-threshold|-s <integer>] - support thershold as absolute number
+       [--testing|-t] - prints only time
+       [--print-freq-seqs|-p] - prints complete set of frequent sequences.
+
+to stdout the program prints a time in seconds in which the algorithm run. If --show-database option is on then it also comprehends the time of the print
+
+cmd_line_options - is a generated from third party modul by codesynthesis - cli
+
+./build/testdata directory contains the test datasets
+
+
+HAVE A FUN:)

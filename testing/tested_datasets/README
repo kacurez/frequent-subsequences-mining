@@ -1,0 +1,8 @@
+directories contain data sets and a python script - makegraphs.py that generates a graph using Gnuplot, an input for the script is directory with outputs of the programs(stdout) and another file that contains the name of the dataset and the number of sequences in database
+
+
+dispatchtest.py - runs SGE sheduler sge.py, input is a file(example_input) containing the dataset file and a set supports as input parameters for the programs prefixspan and spade. See the script and define the path to the programs(spade_dir,prefixspan_dir) in order to run the script correctly.
+
+ibm_dataset_generator contains the source code of the generator of synthetic data sets
+
+HAVE A FUN:)
